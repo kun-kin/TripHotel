@@ -1,0 +1,168 @@
+.title-page {
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    position: relative;
+    h2 {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+}
+
+.tb-space {
+    padding: 100px 0;
+    @media(max-width: 1300px) {
+        padding: 90px;
+    }
+    @media(max-width:991px) {
+        padding: 80px 0;
+    }
+    @media(max-width:576px) {
+        padding: 40px 0;
+    }
+}
+
+.slick-next:before,
+.slick-prev:before {
+    opacity: 1;
+}
+
+.slick-prev {
+    &::before {
+        content: '\f053';
+        font-family: fontawesome;
+    }
+}
+
+.slick-next {
+    &::before {
+        content: '\f054';
+        font-family: fontawesome;
+    }
+}
+
+.slick-dots {
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0;
+    list-style-type: none;
+    li {
+        margin: 0 .5rem;
+        width: 12px;
+        height: 12px;
+        button {
+            display: block;
+            width: 12px;
+            height: 12px;
+            padding: 0;
+            border: none;
+            border-radius: 100%;
+            background-color: rgba(0, 100, 182, .25);
+            text-indent: -9999px
+        }
+        &.slick-active {
+            button {
+                background-color: var(--second-color);
+            }
+        }
+    }
+}
+
+.btn-seemore {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: var(--second-color);
+    border: 1px solid var(--second-color);
+    border-radius: 24px;
+    font-weight: 600;
+    transition: all .3s ease-in-out;
+    &:hover {
+        color: #fff;
+        border-color: transparent;
+        background-color: var(--primary-color);
+        transition: all .3s ease-in-out;
+    }
+}
+
+.btn-choose-room-hotel,
+.btn-add-to-cart {
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    border: 0;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    white-space: nowrap;
+}
+
+.btn-add-to-cart {
+    background: linear-gradient(64.4deg, #FD5056 21.33%, #FE2214 67.61%);
+    border-radius: 5px;
+    &:hover {
+        color: #fff;
+    }
+}
+
+.review-item-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    &>li {
+        margin-right: 20px;
+        .star-list {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            gap: 10px;
+        }
+    }
+    .rating {
+        border: none;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        direction: rtl;
+        &>input,
+        &>textarea {
+            display: none;
+        }
+        &>label {
+            float: right;
+            cursor: pointer;
+            &::before {
+                display: inline-block;
+                content: " \f005";
+                font-size: 16px;
+                font-family: fontawesome !important;
+            }
+        }
+    }
+    .rating>input:checked~label,
+    .rating:not(:checked)>label:hover,
+    .rating:not(:checked)>label:hover~label {
+        color: var(--primary-color);
+    }
+    .rating>input:checked+label:hover,
+    .rating>input:checked~label:hover,
+    .rating>label:hover~input:checked~label,
+    .rating>input:checked~label:hover~label {
+        color: var(--primary-color);
+    }
+}
+
+.sidebar-sticky {
+    position: sticky;
+    top: 75px;
+}

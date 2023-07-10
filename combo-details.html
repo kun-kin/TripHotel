@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip</title>
+    <link rel="shortcut icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" /> -->
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.4.1/swiper-bundle.css" />
+    <link rel="stylesheet" href="./assets/css/animation.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="canonical" href="https://wowjs.uk/">
+
+</head>
+
+<body id="">
+    <div class="wrapper">
+        <header class="header header-page">
+            <div class="container">
+                <div class="header-wrap">
+                    <a href="./index.html" class="logo">
+                        <img src="./assets/images/logo.png" alt="">
+                    </a>
+                    <div class="mobile-toggle">
+                        <span><i class="fa-regular fa-bars"></i></span>
+                    </div>
+                    <nav class="navbar">
+                        <span class="close-mobile-menu">
+                            <i class="fa-regular fa-xmark"></i>
+                        </span>
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a href="./index.html" class="menu-link">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./hotels.html" class="menu-link">
+                                    Khách sạn
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./tours.html" class="menu-link">
+                                    Tours
+                                </a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="./combo.html" class="menu-link">
+                                    Combo
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./blogs.html" class="menu-link">
+                                    Tin tức
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./gallery.html" class="menu-link">
+                                    Hình ảnh
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./contact.html" class="menu-link">
+                                    Liên hệ
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="combo-details tb-space">
+                <div class="container">
+                    <h1 class="combo-title">
+                        Combo tour Hạ Long 2N3Đ
+                    </h1>
+                    <div class="locationPrice">
+                        <p class="anchor">
+                            <img src="./assets/images/location.png" alt="" loading="lazy"> 159 Thùy Vân, Phường Thắng Tam, Thành phố Vũng Tàu, Bà Rịa - Vũng Tàu
+                        </p>
+                        <div class="price_tour">
+                            <span class="saleTop"><span>sale 0%</span></span>
+                            <span class="price-old">
+                                <del>2.000.000 đ</del>
+                            </span>
+                            <span class="price-new">
+                                1.988.000 đ
+                            </span>
+                        </div>
+                    </div>
+                    <div class="wrap_img" id="combo-detail-slide">
+                        <div class="col-img">
+                            <img src="./assets/images/Imperial-Vung-Tau-2.jpg" alt="" loading="lazy">
+                        </div>
+                        <div class="col-img">
+                            <img src="./assets/images/Imperial-Vung-Tau-2.jpg" alt="" loading="lazy">
+                        </div>
+                        <div class="col-img">
+                            <img src="./assets/images/Imperial-Vung-Tau-2.jpg" alt="" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="combo-details-content">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="title--box mt-0">
+                                    <h6>Tổng quan</h6>
+                                </div>
+                                <div class="combo-details-about customborder">
+                                    <div style="text-align:justify">Tọa lạc trên bãi biển đầy cát riêng ở thị trấn nghỉ mát ven biển Vũng Tàu, Khách sạn IMPERIAL thực sự là một khách sạn boutique nghệ thuật, hoàn toàn độc đáo về ý tưởng và thiết kế:</div>
+
+                                    <div style="text-align:justify">&nbsp; -&nbsp;Khách sạn 5 sao duy nhất của Vũng Tàu có bãi biển riêng và Câu lạc bộ Bãi biển</div>
+
+                                    <div style="text-align:justify">&nbsp; -&nbsp;Lấy cảm hứng từ nước Anh thời Victoria, khu nghỉ sở hữu đồ nội thất thủ công, hoàn thiện bằng đá cẩm thạch, đá và gỗ kiểu vương giả cũng như các tác phẩm nghệ thuật lấy cảm hứng từ thời kỳ trong toàn bộ
+                                    </div>
+
+                                    <div style="text-align:justify">&nbsp; -&nbsp;Hơn 300&nbsp;&nbsp;phòng sang trọng rộng từ 40 đến 265 mét vuông trong hai tòa tháp với tầm nhìn ngoạn mục ra đại dương hoặc thành phố</div>
+
+                                    <div style="text-align:justify">&nbsp; -&nbsp;Chỉ cách Thành phố Hồ Chí Minh 1,5 giờ (đi ô tô hoặc tàu cánh ngầm) và 10 phút từ Bến phà Vũng Tàu</div>
+                                </div>
+                                <div class="title--box">
+                                    <h6>Tiện Ích Khách Sạn</h6>
+                                </div>
+                                <div class="combo-details-facility customborder">
+
+                                    <ul>
+                                        <li>
+                                            <img alt="" src="./assets/images/icon-check.png">&nbsp;Nhà hàng
+                                        </li>
+                                        <li>
+                                            <img alt="" src="./assets/images/icon-check.png">&nbsp;Bar
+                                        </li>
+                                        <li>
+                                            <img alt="" src="./assets/images/icon-check.png">&nbsp;Lounge
+                                        </li>
+                                        <li>
+                                            <img alt="" src="./assets/images/icon-check.png">&nbsp;Bể bơi
+                                        </li>
+                                        <li>
+                                            <img alt="" src="./assets/images/icon-check.png">&nbsp;Beach Club
+                                        </li>
+                                        <li>
+                                            <img alt="" src="./assets/images/icon-check.png">&nbsp;Spa
+                                        </li>
+                                        <li>
+                                            <img alt="" src="./assets/images/icon-check.png">&nbsp;Fitness
+                                        </li>
+
+                                        <li>
+                                            <img alt="" src="./assets/images/icon-check.png">&nbsp;Tennis
+                                        </li>
+                                        <li>
+                                            <img alt="" src="./assets/images/icon-check.png">&nbsp;Trung tâm mua sắm
+                                        </li>
+                                        <li>
+                                            <img alt="" src="./assets/images/icon-check.png">&nbsp;Royal Garden
+                                        </li>
+                                        <li>
+                                            <img alt="" src="./assets/images/icon-check.png">&nbsp;Hội thảo
+                                        </li>
+                                        <li>
+                                            <img alt="" src="./assets/images/icon-check.png">&nbsp;Meeting
+                                        </li>
+                                        <li>
+                                            <img alt="" src="./assets/images/icon-check.png">&nbsp;Theatre
+                                        </li>
+                                        <li>
+                                            <img alt="" src="./assets/images/icon-check.png">&nbsp;Bãi biển riêng
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <div class="title--box">
+                                    <h6>Chi tiết dịch vụ</h6>
+                                </div>
+                                <div class="combo-details-desc customborder">
+                                    <div class="temnote">
+                                        <div class="booking_ite">
+                                            <div>
+                                                <h3>Quy định và lưu ý</h3>
+                                                <div>
+                                                    <div style="text-align:justify"><strong>PHỤ THU THÊM NGƯỜI</strong><br> - Dưới 6 tuổi: Miễn phí ngủ chung với bố mẹ<br> - Phụ thu cho trẻ em từ 06 tuổi đến 11 tuổi: VND400,000 ++ / trẻ em / đêm / gói (ngủ chung với bố mẹ)<br> - Phụ
+                                                        thu người lớn VND 1.680.000 ++ / người / đêm với giường phụ<br>
+                                                        <br>
+                                                        <strong>ĐIỀU KIỆN &amp; ĐIỀU KHOẢN</strong><br> Booking không hoàn hủy</div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="booking_ite">
+                                            <div>
+                                                <h3>Vị trí và phương tiện đi lại</h3>
+                                                <div>
+                                                    <div style="text-align:justify">-&nbsp;&nbsp;Imperial Vũng Tàu&nbsp;cách chợ đêm với hàng chục quầy hàng lưu niệm và hải sản 3 phút đi bộ</div>
+
+                                                    <div style="text-align:justify">-&nbsp;&nbsp;Imperial Vũng Tàu&nbsp;cách khu phức hợp Lotte Mart với rạp chiếu phim và cửa hàng 12 phút đi bộ</div>
+
+                                                    <div style="text-align:justify">-&nbsp;&nbsp;Imperial Vũng Tàu cách tượng chúa Jesus khổng lồ cao 32m 10 phút đi taxi</div>
+
+                                                    <div style="text-align:justify">-&nbsp; Imperial Vũng Tàu cách sân vận động Lam Sơn 10 phút đi taxi</div>
+
+                                                    <div style="text-align:justify">-&nbsp;&nbsp;Imperial Vũng Tàu&nbsp;cách biệt thự Trắng thời Pháp thuộc 15 phút đi taxi</div>
+
+                                                    <div style="text-align:justify">-&nbsp;&nbsp;Imperial Vũng Tàu cách cáp treo đến Hồ Mây để ngắm cảnh đẹp của Vũng Tàu và công viên giải trí 15 phút đi taxi</div>
+
+                                                    <div style="text-align:justify">-&nbsp;&nbsp;Imperial Vũng Tàu cách ngọn hải đăng 100 tuổi với tầm nhìn 360 độ ngoạn mục ra Vũng Tàu 15 phút đi taxi</div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="booking_ite">
+                                            <div>
+                                                <h3>Ẩm thực</h3>
+                                                <div>
+                                                    <div style="text-align:justify"><strong>Dinning Room</strong></div>
+
+                                                    <div style="text-align:justify">Dinning Room&nbsp; là nhà hàng ăn uống cao cấp của Imperial combo Vũng Tàu, phục vụ bữa sáng tự chọn, bữa trưa và bữa tối gọi món trong một khung cảnh trang nhã nổi bật với tông màu vàng hạt dẻ và vàng
+                                                        sang trọng.&nbsp;Phòng ăn có chỗ ngồi cho 250-300 khách trong phòng ăn chính cũng như khu vực ăn uống ngoài trời nhìn ra Vườn thượng uyển.&nbsp;</div>
+
+                                                    <div style="text-align:justify">&nbsp;</div>
+
+                                                    <div style="text-align:justify">Dinning Room&nbsp;đưa thực khách vào một hành trình ẩm thực dọc theo chiều dài và bề rộng của đất nước Việt Nam với các món ăn truyền thống của ba miền Bắc Bộ, Trung Bộ và Nam Bộ, bao gồm chả cá nổi
+                                                        tiếng của Hà Nội, bún bò đặc trưng của Huế và của Vũng Tàu bánh tráng nướng.</div>
+
+                                                    <div style="text-align:justify">&nbsp;</div>
+
+                                                    <div style="text-align:justify">Thực đơn phương Tây bao gồm các món ăn quốc tế cổ điển được yêu thích bao gồm mì ống, salad và bánh mì cũng như các sản phẩm cao cấp như thịt bò và cừu Úc nướng, cá hồi Na Uy và cá ngừ địa phương.&nbsp;Những
+                                                        tín đồ ẩm thực sẽ được thưởng thức những món ăn sáng tạo của chúng tôi bao gồm Burger "Imperial" với rau arugula, thịt xông khói và bí đỏ ớt cay và món salad tươi có hương vị ngọt và mặn như hải
+                                                        sản nướng, trái cây tươi theo mùa và pho mát nhập khẩu.&nbsp;Tiệm bánh rất riêng của chúng tôi phục vụ bánh mì mới nướng hàng ngày cũng như các món tráng miệng hảo hạng.</div>
+
+                                                    <div style="text-align:justify">&nbsp;</div>
+
+                                                    <div style="text-align:justify">Giờ mởcửa:<br> Từ 06: 30-10:00 phục vụ buffet sáng<br> Từ 10:00 - 22:00&nbsp;phục vụ bữa ăn A la carte</div>
+
+                                                    <div>
+                                                        <div style="text-align:justify">Vị trí: Tầng tiền sảnh<br>
+                                                            <br>
+                                                            <strong>Lobby Lounge</strong></div>
+
+                                                        <div style="text-align:justify">Với những chiếc ghế sofa bọc da màu xanh lá mạ và màu xanh đậm, trần gỗ điêu khắc tuyệt đẹp và tính năng nước nhẹ nhàng, The Lobby Lounge là hiện thân của sự phong phú của câu lạc bộ quý ông cổ điển,
+                                                            là nơi lý tưởng để thưởng thức một ly cappuccino buổi chiều hoặc một ly cocktail sau bữa tối.&nbsp;Hãy ngồi xuống và thưởng thức&nbsp;ly Daiquiri "Imperial" với chút vani và bạc hà, hoặc nhấp
+                                                            một tách&nbsp;Trà Cung Đình thơm mát, một sự kết hợp mặn ngọt, mát lành sảng khoái của nước cam chanh tươi mới vắt và các loại thảo mộc truyền thống của Việt Nam.</div>
+
+                                                        <div style="text-align:justify">&nbsp;</div>
+
+                                                        <div style="text-align:justify">Mở cửa từ 7 giờ sáng đến 11 giờ tối, The Lobby Lounge phục vụ các loại cocktail, rượu mạnh, bia địa phương và nhập khẩu cũng như đồ uống giải khát không cồn.&nbsp;Đồ ăn cũng có thể được đặt từ The
+                                                            Dining Room.&nbsp;Cuối tuần có độc tấu piano</div>
+
+                                                        <div style="text-align:justify"><br>
+                                                            <strong>Asia Selection</strong></div>
+
+                                                        <div style="text-align:justify">Nằm ngay gần sảnh của King's Tower, Asia Selection phục vụ các món ăn bình dân được yêu thích theo kiểu gọi món từ một số món ăn ngon nhất của Châu Á, bao gồm cả Thái Lan, Nhật Bản và Ấn Độ.&nbsp;Cửa
+                                                            sổ kính suốt từ trần đến sàn nhìn ra Khu vườn Hoàng gia xinh đẹp trong không gian&nbsp;sang trọng chiết trung này có bếp mở, gạch cổ điển, sàn gỗ cứng và chỗ ngồi cho hơn 300 khách. Asia Selection
+                                                            phục vụ bữa sáng tự chọn và bữa trưa cũng như bữa tối gọi món.</div>
+
+                                                        <div style="text-align:justify"><br> Thời gian mở cửa: Từ 6.30 AM đến 10.PM</div>
+
+                                                        <div style="text-align:justify"><br>
+                                                            <strong>Shifu Chinese Bistro</strong></div>
+
+                                                        <div style="text-align:justify">Shifu Chinese Bistro đưa thực khách vào hành trình ẩm thực đến vùng Viễn Đông.&nbsp;Nổi bật bởi thiết kế đậm chất Trung Hoa với&nbsp;điểm nhấn màu đỏ uy nghiêm, các họa tiết trạm khắc thủ công, sở
+                                                            hữu&nbsp;hai phòng VIP riêng, quán ăn Shi-Fu Chinese Bistro 200 chỗ đúng với tên gọi "Master" trong tiếng Quảng Đông.&nbsp;Thực đơn được tuyển chọn cẩn thận do các đầu bếp Quảng Đông tài năng
+                                                            thực hiện trong một gian bếp biểu diễn sống động bao gồm Vịt quay Bắc Kinh tự làm được chạm khắc trên bàn, cá mú hấp kiểu Hồng Kông từ tuyển chọn hải sản sống phong phú của chúng tôi, đậu phụ
+                                                            xào kiểu Tứ Xuyên và một loạt các món&nbsp;dim sum hấp dẫn.<br> &nbsp;
+                                                        </div>
+
+                                                        <div style="text-align:justify">Thời gian mở cửa:<br> Bữa trưa:&nbsp;11h -14h<br> Bữa tối: 18h - 20h<br> &nbsp;
+                                                        </div>
+
+                                                        <div style="text-align:justify"><strong>Vị trí: Tầng tiền sảnh</strong></div>
+
+                                                        <div style="text-align:justify"><br>
+                                                            <strong>Imperial Theatre</strong></div>
+
+                                                        <p style="text-align:justify">Imperial Theatre&nbsp;là nơi để thưởng thức một ly rượu mạnh, gặp gỡ bạn bè cũ, sum họp gia đình, đi chơi với đồn với quầy bar xung quanh và sân khấu trung tâm cho các buổi biểu diễn âm nhạc và các
+                                                            hoạt động giải trí khác.</p>
+
+                                                        <div style="text-align:justify">Vị trí: Tầng tiền sảnh<br> Giờ mở cửa: Thứ Tư đến Thứ Bảy từ 5 giờ chiều đến khuya</div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="booking_ite">
+                                            <div>
+                                                <h3>Giải trí</h3>
+                                                <div>
+                                                    <div style="text-align:justify"><strong>Câu lạc bộ bãi biển Imperial</strong></div>
+
+                                                    <div style="text-align:justify">Không nghi ngờ gì nữa, The Imperial Beach Club là câu lạc bộ nằm ngay trên Bãi Sau xinh đẹp, dài 5 km cách khu nghỉ chỉ 2 phút đi bộ,&nbsp;dọc theo Cầu Sky.&nbsp;Imperial Beach Club lấy cảm hứng từ những
+                                                        phòng tắm La Mã sang trọng nổi bật với thiết kế&nbsp;bằng đá màu kem trang nhã, gạch màu xanh lam chói lọi và vọng lâu trắng lấp lánh.</div>
+
+                                                    <div style="text-align:justify">&nbsp;</div>
+
+                                                    <div style="text-align:justify">Câu lạc bộ bãi biển bao gồm&nbsp;ghế tắm nắng, hồ bơi dành cho trẻ em và hồ bơi vô cực bên bờ biển dài 50 mét tuyệt đẹp được tạo bởi Jacuzzis mang đến trải nghiệm bãi biển thực sự cao cấp không đâu sánh
+                                                        bằng ở Vũng Tàu.&nbsp;Du khách có thể tìm thấy chỗ ngồi trên những chiếc ghế dài nằm ngay trên bãi biển đầy cát, xung quanh hồ bơi hoặc trong những căn lều đơn hoặc đôi được trang bị máy lạnh, truyền
+                                                        hình cáp và vòi sen ngoài trời. Mọi khách hàng&nbsp;đều được cung cấp Wi-Fi và dịch vụ khăn tắm biển miễn phí.&nbsp;</div>
+
+                                                    <div style="text-align:justify">&nbsp;</div>
+
+                                                    <div style="text-align:justify">Nằm cạnh Câu lạc bộ bãi biển, Nhà hàng Hải Vương cung cấp chỗ ngồi trong nhà và ngoài trời với tầm nhìn ra bãi biển, chuyên về hải sản tươi sống.&nbsp;Thực khách có thể lựa chọn các loại hải sản sống
+                                                        như cua, tôm, sò, cá được nuôi trong các bể chứa ngay trong nhà hàng sau đó được chế biến theo yêu cầu với hương vị Việt Nam, Thái Lan và quốc tế. Đối với các món ăn nhanh, thực đơn tại bể bơi cung
+                                                        cấp các món ăn quốc tế được yêu thích bao gồm bánh mì kẹp thịt, mì ống và salad cũng như nước trái cây giải khát, sinh tố và bia.</div>
+
+                                                    <div style="text-align:justify">&nbsp;</div>
+
+                                                    <div>
+                                                        <div style="text-align:justify">Khách có thể lựa chọn nơi này để tổ chức sự kiện và tiệc tùng!<br>
+                                                            <br>
+                                                            <strong>Imperial Spa</strong><br>
+                                                            <span style="color:rgb(47, 47, 47)">Imperial Spa cung cấp các liệu pháp xông hơi, tắm hơi, bể sục, mát-xa và nhiều&nbsp;liệu pháp&nbsp;</span><span style="color:black">chăm sóc sắc đẹp&nbsp;khác nhau</span>
+                                                            <span style="color:rgb(47, 47, 47)">. Đên đây, bạn sẽ được các chuyên gia trị liệu được đào tạo chuyên sâu nhất của Châu Á tư vấn và cung cấp các liệu trình trị liệu độc quyền.<br>
+                                                                <br>
+                                                                <strong>Fitness</strong></span>
+                                                        </div>
+
+                                                        <p style="text-align:justify"><span style="color:rgb(47, 47, 47)">Hãy đến với&nbsp;Gym và Boxing Ring, nơi rèn luyện sức khỏe kết hợp với thư giãn và sức khỏe cá nhân.&nbsp;Phòng Gym hướng ra vườn thượng uyển và bể bơi. Ngoài tầm nhìn khoáng đạt, cơ sở phòng tập hiện đại nhất tại The Imperial combo còn cung cấp các thiết bị hiện đại cũng như Sàn&nbsp;đấm bốc và túi đấm độc đáo lấy cảm hứng từ các phòng tập thể dục của Mỹ những năm 1930.</span><br>
+                                                            <br>
+                                                            <strong>Trung tâm mua sắm</strong><br> Nằm trong quần thể phát triển tổng hợp lớn nhất Vũng Tàu, Khách sạn Imperial Vũng Tàu được kết nối với mô hình thương mại đặc biệt The Imperial Plaza bằng
+                                                            một cây cầu nội bộ.&nbsp;Imperial Plaza bao gồm 4 tầng và cung cấp đầy đủ các dịch vụ từ bán lẻ đến giải trí trong một môi trường mua sắm sang trọng.<br>
+                                                            <br>
+                                                            <span style="color:rgb(47, 47, 47)"><strong>Tennis</strong><br>
+            Imperial combo Vũng Tàu sở hữu sân Tennis hiện đại, thỏa mãn nhu cầu vận động và giao lưu của khách lưu trú. Sân </span>miễn phí cho khách lưu trú vào ban ngày; phí áp dụng cho vui
+                                                            chơi ban đêm.<br>
+                                                            <br>
+                                                            <span style="color:rgb(47, 47, 47)"><strong>Royal Garden</strong></span></p>
+
+                                                        <div style="text-align:justify">Ở giữa hai tòa tháp là Vườn Hoàng gia có cảnh quan tuyệt đẹp, một ốc đảo với màu xanh ngọc lục bảo nhẹ nhàng và màu xanh lam Địa Trung Hải rực rỡ, nơi có một hồ bơi&nbsp;tuyệt đẹp, hai bể sục, một
+                                                            bể bơi phân làn giữa một khu vườn đài phun nước điêu khắc, một hồ bơi dành cho trẻ em và một sân tennis.&nbsp;Quầy bar trên hồ bơi vọng lâu chuyên cung cấp&nbsp;đồ uống cho khách hàng.</div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 ">
+                                <div class="combo-details-map">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.7966389422486!2d105.7719325110477!3d21.040821480530546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454c563dba4eb%3A0xc3161d468d77f9aa!2zSUlUIFRFQ0hDT00gLSBDw7RuZyB0eSBUTkhIIEPDtG5nIG5naOG7hyB2w6AgdHJ1eeG7gW4gdGjDtG5nIElJVA!5e0!3m2!1svi!2s!4v1688789829572!5m2!1svi!2s"
+                                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                                <div class="sidebar-sticky">
+                                    <div class="widget widget-form">
+                                        <div class="title--box">
+                                            <h6>Thông tin đặt phòng</h6>
+                                        </div>
+                                        <form action="" class="book-form">
+                                            <div class="input-field">
+                                                <label for="">Ngày đến</label>
+                                                <input type="text" class="form-control hasDatepicker" id="checkin">
+                                            </div>
+                                            <div class="input-field">
+                                                <label for="">Ngày đi</label>
+                                                <input type="text" class="form-control hasDatepicker" id="checkout">
+                                            </div>
+                                            <div class="input-field">
+                                                <label for="">Số người</label>
+                                                <input type="number" min="0" max="20" class="form-control" id="">
+                                            </div>
+                                            <div class="input-field">
+                                                <button type="submit" class="btn btn-primary btn-book-form">
+                                                    Check Avalability
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="widget widget-phone">
+                                        <div class="title--box">
+                                            <h6>
+                                                <i class="fa-solid fa-bells"></i>&nbsp
+                                                <a href="tel:+0785846744">0785846744</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="combo-room">
+                <div class="container">
+                    <div class="title-page">
+                        <h2>Phòng nghỉ</h2>
+                    </div>
+                    <div class="combo-room-list">
+                        <div class="combo-room-list-wrap" id="combo-room-slide">
+                            <div class="combo-room-item">
+                                <div class="combo-room-item-inner">
+                                    <div class="box-image">
+                                        <a href="javascript:;" data-toggle="modal" data-target="#room-modal">
+                                            <img src="./assets/images/Imperial-Vung-Tau-5.jpg" loading="lazy" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="box-content">
+                                        <h3 class="combo-room-title">
+                                            <a href="javascript:;" data-toggle="modal" data-target="#room-modal">
+                                                Deluxe room
+                                            </a>
+                                        </h3>
+                                        <div class="combo-room-meta">
+                                            <span>
+                                                <i class="fa-solid fa-square"></i> 12 sqm
+                                            </span>
+                                            <span>
+                                                <i class="fa-solid fa-user-group"></i>
+                                                2 person
+                                            </span>
+                                        </div>
+                                        <div class="combo-room-price">
+                                            <span class="price-old">
+                                                <del>2.000.000 đ</del>
+                                            </span>
+                                            <span class="price-new">
+                                                1.998.000 đ
+                                            </span>
+                                        </div>
+                                        <div class="combo-room-text">
+                                            Lorem, ipsum color sit amet consectetur adipisicing elit. Ipsam quasi alias, sunt ab expedita, accusamus omnis nemo inventore cupiditate minus laboriosam debitis commodi nesciunt reiciendis. Sit eos facere suscipit praesentium.
+                                        </div>
+
+                                        <div class="combo-room-btngroup">
+                                            <a href="" class="btn btn-add-to-cart">
+                                                book now
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="combo-room-item">
+                                <div class="combo-room-item-inner">
+                                    <div class="box-image">
+                                        <a href="javascript:;" data-toggle="modal" data-target="#room-modal">
+                                            <img src="./assets/images/Imperial-Vung-Tau-5.jpg" loading="lazy" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="box-content">
+                                        <h3 class="combo-room-title">
+                                            <a href="javascript:;" data-toggle="modal" data-target="#room-modal">
+                                                Deluxe room
+                                            </a>
+                                        </h3>
+                                        <div class="combo-room-meta">
+                                            <span>
+                                                <i class="fa-solid fa-square"></i> 12 sqm
+                                            </span>
+                                            <span>
+                                                <i class="fa-solid fa-user-group"></i>
+                                                2 person
+                                            </span>
+                                        </div>
+                                        <div class="combo-room-price">
+                                            <span class="price-old">
+                                                <del>2.000.000 đ</del>
+                                            </span>
+                                            <span class="price-new">
+                                                1.998.000 đ
+                                            </span>
+                                        </div>
+                                        <div class="combo-room-text">
+                                            Lorem, ipsum color sit amet consectetur adipisicing elit. Ipsam quasi alias, sunt ab expedita, accusamus omnis nemo inventore cupiditate minus laboriosam debitis commodi nesciunt reiciendis. Sit eos facere suscipit praesentium.
+                                        </div>
+
+                                        <div class="combo-room-btngroup">
+                                            <a href="" class="btn btn-add-to-cart">
+                                                book now
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="combo-room-item">
+                                <div class="combo-room-item-inner">
+                                    <div class="box-image">
+                                        <a href="javascript:;" data-toggle="modal" data-target="#room-modal">
+                                            <img src="./assets/images/Imperial-Vung-Tau-5.jpg" loading="lazy" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="box-content">
+                                        <h3 class="combo-room-title">
+                                            <a href="javascript:;" data-toggle="modal" data-target="#room-modal">
+                                                Deluxe room
+                                            </a>
+                                        </h3>
+                                        <div class="combo-room-meta">
+                                            <span>
+                                                <i class="fa-solid fa-square"></i> 12 sqm
+                                            </span>
+                                            <span>
+                                                <i class="fa-solid fa-user-group"></i>
+                                                2 person
+                                            </span>
+                                        </div>
+                                        <div class="combo-room-price">
+                                            <span class="price-old">
+                                                <del>2.000.000 đ</del>
+                                            </span>
+                                            <span class="price-new">
+                                                1.998.000 đ
+                                            </span>
+                                        </div>
+                                        <div class="combo-room-text">
+                                            Lorem, ipsum color sit amet consectetur adipisicing elit. Ipsam quasi alias, sunt ab expedita, accusamus omnis nemo inventore cupiditate minus laboriosam debitis commodi nesciunt reiciendis. Sit eos facere suscipit praesentium.
+                                        </div>
+
+                                        <div class="combo-room-btngroup">
+                                            <a href="" class="btn btn-add-to-cart">
+                                                book now
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="combo-room-item">
+                                <div class="combo-room-item-inner">
+                                    <div class="box-image">
+                                        <a href="javascript:;" data-toggle="modal" data-target="#room-modal">
+                                            <img src="./assets/images/Imperial-Vung-Tau-5.jpg" loading="lazy" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="box-content">
+                                        <h3 class="combo-room-title">
+                                            <a href="javascript:;" data-toggle="modal" data-target="#room-modal">
+                                                Deluxe room
+                                            </a>
+                                        </h3>
+                                        <div class="combo-room-meta">
+                                            <span>
+                                                <i class="fa-solid fa-square"></i> 12 sqm
+                                            </span>
+                                            <span>
+                                                <i class="fa-solid fa-user-group"></i>
+                                                2 person
+                                            </span>
+                                        </div>
+                                        <div class="combo-room-price">
+                                            <span class="price-old">
+                                                <del>2.000.000 đ</del>
+                                            </span>
+                                            <span class="price-new">
+                                                1.998.000 đ
+                                            </span>
+                                        </div>
+                                        <div class="combo-room-text">
+                                            Lorem, ipsum color sit amet consectetur adipisicing elit. Ipsam quasi alias, sunt ab expedita, accusamus omnis nemo inventore cupiditate minus laboriosam debitis commodi nesciunt reiciendis. Sit eos facere suscipit praesentium.
+                                        </div>
+
+                                        <div class="combo-room-btngroup">
+                                            <a href="" class="btn btn-add-to-cart">
+                                                book now
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade pr-0" id="room-modal" tabindex="-1" role="dialog" aria-labelledby="room-modal-label" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title font-weight-bold" id="room-modal-label">Deluxe room</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h3>Chi tiết</h3>
+                                    <p>
+                                        Lorem, ipsum color sit amet consectetur adipisicing elit. Ipsam quasi alias, sunt ab expedita, accusamus omnis nemo inventore cupiditate minus laboriosam debitis commodi nesciunt reiciendis. Sit eos facere suscipit praesentium.
+                                    </p>
+                                    <h3>Combo phòng & bữa ăn hàng ngày</h3>
+                                    <div class="acc-detailCom" id="price_info_0">
+                                        <ul>
+                                            <li>
+                                                <img alt="" src="https://elitetour.com.vn/files/images/ROOMICON/check-mark.png" style="border-style:none; box-sizing:border-box; color:rgb(26, 56, 99); float:left; font-family:montserrat; font-size:15px; height:15px; margin-right:5px; opacity:0.9; text-align:justify; vertical-align:middle; width:15px">03
+                                                bữa ăn trên tàu<br>
+                                            </li>
+                                            <li>
+                                                <img alt="" src="https://elitetour.com.vn/files/images/ROOMICON/check-mark.png" style="border-style:none; box-sizing:border-box; color:rgb(26, 56, 99); float:left; font-family:montserrat; font-size:15px; height:15px; margin-right:5px; opacity:0.9; text-align:justify; vertical-align:middle; width:15px">MIỄN
+                                                PHÍ trà, café (buổi sáng) và nước trên du thuyền.<br>
+                                            </li>
+                                            <li>
+                                                <img alt="" src="https://elitetour.com.vn/files/images/ROOMICON/check-mark.png" style="border-style:none; box-sizing:border-box; color:rgb(26, 56, 99); float:left; font-family:montserrat; font-size:15px; height:15px; margin-right:5px; opacity:0.9; text-align:justify; vertical-align:middle; width:15px">Tham
+                                                gia các lớp học nấu ăn và lớp Thái Cực Quyền bình minh, câu mực đêm.<br>
+                                            </li>
+                                            <li>
+                                                <img alt="" src="https://elitetour.com.vn/files/images/ROOMICON/check-mark.png" style="border-style:none; box-sizing:border-box; color:rgb(26, 56, 99); float:left; font-family:montserrat; font-size:15px; height:15px; margin-right:5px; opacity:0.9; text-align:justify; vertical-align:middle; width:15px">Bao
+                                                gồm kayak hoặc thuyền nan.<br>
+                                            </li>
+                                            <li>
+                                                <img alt="" src="https://elitetour.com.vn/files/images/ROOMICON/check-mark.png" style="border-style:none; box-sizing:border-box; color:rgb(26, 56, 99); float:left; font-family:montserrat; font-size:15px; height:15px; margin-right:5px; opacity:0.9; text-align:justify; vertical-align:middle; width:15px">Hải
+                                                trình thú vị, dừng chân tại các địa danh nổi tiếng của Hạ Long: Hang Sửng Sốt, Đảo Titop, Hang Luồn<br>
+                                            </li>
+                                            <li>
+                                                <img alt="" src="https://elitetour.com.vn/files/images/ROOMICON/check-mark.png" style="border-style:none; box-sizing:border-box; color:rgb(26, 56, 99); float:left; font-family:montserrat; font-size:15px; height:15px; margin-right:5px; opacity:0.9; text-align:justify; vertical-align:middle; width:15px">GIẢM
+                                                50% gói đồ uống KHÔNG GIỚI HẠN trong 2 tiếng.<br>
+                                            </li>
+                                            <li>
+                                                <img alt="" src="https://elitetour.com.vn/files/images/ROOMICON/check-mark.png" style="border-style:none; box-sizing:border-box; color:rgb(26, 56, 99); float:left; font-family:montserrat; font-size:15px; height:15px; margin-right:5px; opacity:0.9; text-align:justify; vertical-align:middle; width:15px">01
+                                                đêm nghỉ dưỡng 5 sao Tại FLC Hạ Long<br>
+                                            </li>
+                                            <li>
+                                                <img alt="" src="https://elitetour.com.vn/files/images/ROOMICON/check-mark.png" style="border-style:none; box-sizing:border-box; color:rgb(26, 56, 99); float:left; font-family:montserrat; font-size:15px; height:15px; margin-right:5px; opacity:0.9; text-align:justify; vertical-align:middle; width:15px">Buffet
+                                                sáng hàng trăm món tự chọn<br>
+                                            </li>
+                                            <li>
+                                                <img alt="" src="https://elitetour.com.vn/files/images/ROOMICON/check-mark.png" style="border-style:none; box-sizing:border-box; color:rgb(26, 56, 99); float:left; font-family:montserrat; font-size:15px; height:15px; margin-right:5px; opacity:0.9; text-align:justify; vertical-align:middle; width:15px">Tặng
+                                                đồ uống khi check in<br>
+                                            </li>
+                                            <li>
+                                                <img alt="" src="https://elitetour.com.vn/files/images/ROOMICON/check-mark.png" style="border-style:none; box-sizing:border-box; color:rgb(26, 56, 99); float:left; font-family:montserrat; font-size:15px; height:15px; margin-right:5px; opacity:0.9; text-align:justify; vertical-align:middle; width:15px">Sử
+                                                dụng không giới hạn các tiện ích tại quần thể: vào cửa Kid Club, phòng gym fitness hiện đại, bể bơi 4 mùa….
+
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <h3>Dịch vụ</h3>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                    <a href="" class="btn btn-book-now">
+                                        Book Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="review tb-space">
+                <div class="container">
+                    <div class="title-page">
+                        <h2>Đánh giá từ khách hàng</h2>
+                    </div>
+                    <div class="review-wrap">
+                        <div class="review-list" id="review-slide">
+                            <div class="review-item">
+                                <div class="review-item-inner">
+                                    <div class="avatar">
+                                        <img src="./assets/images/viber_image_2020-07-18_16-21-09.jpg" alt="">
+                                    </div>
+                                    <div class="review-date">20/3/20223</div>
+                                    <div class="review-info">
+                                        <h4 class="review-info-name">Tố Như</h4>
+                                        <div class="rating">
+                                            <div class="rating-star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="review-text">
+                                        Nhà mình đi giai đoạn 25-27/8 cũng lo sợ mùa mưa tại Phú Quốc nhưng được các bạn nhân viên tư vấn và hỗ trợ nhiệt tình cộng thêm thời tiết 3 hôm đều nắng đẹp nên nhà mình đã rất vui. Cảm ơn các bạn tư vấn bên Elite Tour Lorem, ipsum color sit amet consectetur
+                                        adipisicing elit. Ipsam quasi alias, sunt ab expedita, accusamus omnis nemo invent ore cupiditate minus laboriosam debitis commodi nesciunt reiciendis. Sit eos facere suscipit praesentium.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review-item">
+                                <div class="review-item-inner">
+                                    <div class="avatar">
+                                        <img src="./assets/images/viber_image_2020-07-18_16-21-09.jpg" alt="">
+                                    </div>
+                                    <div class="review-date">20/3/20223</div>
+                                    <div class="review-info">
+                                        <h4 class="review-info-name">Tố Như</h4>
+                                        <div class="rating">
+                                            <div class="rating-star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="review-text">
+                                        Nhà mình đi giai đoạn 25-27/8 cũng lo sợ mùa mưa tại Phú Quốc nhưng được các bạn nhân viên tư vấn và hỗ trợ nhiệt tình cộng thêm thời tiết 3 hôm đều nắng đẹp nên nhà mình đã rất vui. Cảm ơn các bạn tư vấn bên Elite Tour Lorem, ipsum color sit amet consectetur
+                                        adipisicing elit. Ipsam quasi alias, sunt ab expedita, accusamus omnis nemo invent ore cupiditate minus laboriosam debitis commodi nesciunt reiciendis. Sit eos facere suscipit praesentium.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review-item">
+                                <div class="review-item-inner">
+                                    <div class="avatar">
+                                        <img src="./assets/images/viber_image_2020-07-18_16-21-09.jpg" alt="">
+                                    </div>
+                                    <div class="review-date">20/3/20223</div>
+                                    <div class="review-info">
+                                        <h4 class="review-info-name">Tố Như</h4>
+                                        <div class="rating">
+                                            <div class="rating-star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="review-text">
+                                        Nhà mình đi giai đoạn 25-27/8 cũng lo sợ mùa mưa tại Phú Quốc nhưng được các bạn nhân viên tư vấn và hỗ trợ nhiệt tình cộng thêm thời tiết 3 hôm đều nắng đẹp nên nhà mình đã rất vui. Cảm ơn các bạn tư vấn bên Elite Tour Lorem, ipsum color sit amet consectetur
+                                        adipisicing elit. Ipsam quasi alias, sunt ab expedita, accusamus omnis nemo invent ore cupiditate minus laboriosam debitis commodi nesciunt reiciendis. Sit eos facere suscipit praesentium.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review-item">
+                                <div class="review-item-inner">
+                                    <div class="avatar">
+                                        <img src="./assets/images/viber_image_2020-07-18_16-21-09.jpg" alt="">
+                                    </div>
+                                    <div class="review-date">20/3/20223</div>
+                                    <div class="review-info">
+                                        <h4 class="review-info-name">Tố Như</h4>
+                                        <div class="rating">
+                                            <div class="rating-star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="review-text">
+                                        Nhà mình đi giai đoạn 25-27/8 cũng lo sợ mùa mưa tại Phú Quốc nhưng được các bạn nhân viên tư vấn và hỗ trợ nhiệt tình cộng thêm thời tiết 3 hôm đều nắng đẹp nên nhà mình đã rất vui. Cảm ơn các bạn tư vấn bên Elite Tour Lorem, ipsum color sit amet consectetur
+                                        adipisicing elit. Ipsam quasi alias, sunt ab expedita, accusamus omnis nemo invent ore cupiditate minus laboriosam debitis commodi nesciunt reiciendis. Sit eos facere suscipit praesentium.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-form">
+
+                        <form action="">
+                            <div class="title-page">
+                                <h2>Đánh Giá</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-inner">
+                                        <label for="">Your name :</label>
+                                        <input type="text" name="customer_name" value="" placeholder="Your Name:">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-inner">
+                                        <label for="">Email :</label>
+                                        <input type="text" name="customer_email" value="" placeholder="Your Email Address:">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-inner">
+                                        <label for="">Review title :</label>
+                                        <input type="text" name="review_title" placeholder="Reivew Title:">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-inner">
+                                        <label for="">Review text :</label>
+                                        <textarea name="review_message" rows="5" placeholder="Review Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-inner">
+                                        <label for="">Rating star :</label>
+                                        <div class="star-rating-wrapper">
+                                            <ul class="review-item-list">
+                                                <li>
+                                                    <ul class="star-list">
+                                                        <fieldset class="rating">
+                                                            <input type="radio" class="rating_last" id="cleanlinessratingstar5" name="cleanlinessrating" value="5">
+                                                            <label for="cleanlinessratingstar5" title="5 stars"></label>
+                                                            <input type="radio" id="cleanlinessratingstar4" name="cleanlinessrating" value="4">
+                                                            <label for="cleanlinessratingstar4" title="4 stars"></label>
+                                                            <input type="radio" id="cleanlinessratingstar3" name="cleanlinessrating" value="3">
+                                                            <label for="cleanlinessratingstar3" title="3 stars"></label>
+                                                            <input type="radio" id="cleanlinessratingstar2" name="cleanlinessrating" value="2">
+                                                            <label for="cleanlinessratingstar2" title="2 stars"></label>
+                                                            <input type="radio" id="cleanlinessratingstar1" name="cleanlinessratingrating" value="1">
+                                                            <label for="cleanlinessratingstar1" title="1 star"></label>
+                                                        </fieldset>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <button type="submit">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+
+        </main>
+
+        <footer class="footer ">
+            <div class="footer-wrap ">
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col-lg-4 ">
+                            <div class="company-info ">
+                                <div class="logo-ft ">
+                                    <img src="./assets/images/logo-ft.png" alt=" ">
+                                </div>
+                                <p>Địa chỉ: 147 mai dịch</p>
+                                <p>
+                                    Điện thoại : <a href="tel:+0384747553 ">0384747553</a>
+                                </p>
+                                <p>
+                                    Email :
+                                    <a href="mailto:Info@webcombo.vn ">Info@webcombo.vn</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 ">
+                            <div class="row ">
+                                <div class="col-lg-4 ">
+                                    <h3 class="footer-title ">
+                                        Cẩm nang
+                                    </h3>
+                                    <ul>
+                                        <li>
+                                            <a href=" ">Phú Quốc</a>
+                                        </li>
+                                        <li>
+                                            <a href=" ">Đà Nẵng</a>
+                                        </li>
+                                        <li>
+                                            <a href=" ">Đà Lạt</a>
+                                        </li>
+                                        <li>
+                                            <a href=" ">Nha Trang</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-lg-4 ">
+                                    <h3 class="footer-title ">
+                                        Giới thiệu
+                                    </h3>
+                                    <ul>
+                                        <li>
+                                            <a href=" ">Về chúng tôi</a>
+                                        </li>
+                                        <li>
+                                            <a href=" ">Quy định chung</a>
+                                        </li>
+                                        <li>
+                                            <a href=" ">Dịch vụ</a>
+                                        </li>
+                                        <li>
+                                            <a href=" ">Chính sách bảo mật</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-4 ">
+                                    <h3 class="footer-title ">
+                                        Phương thức thanh toán
+                                    </h3>
+                                    <div class="payment-list ">
+                                        <img src="./assets/images/visa.png " alt=" " class="payment-icon ">
+                                        <img src="./assets/images/master-card.png " alt=" " class="payment-icon ">
+                                        <img src="./assets/images/paypal.png " alt=" " class="payment-icon ">
+                                        <img src="./assets/images/apple-pay.png " alt=" " class="payment-icon ">
+                                        <img src="./assets/images/google-pay.png " alt=" " class="payment-icon ">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <a href="javascript:void(0); " id="backtotop"><i class="fa-sharp fa-solid fa-angle-up "></i></a>
+
+    <script src="./assets/js/jquery-3.6.0.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js "></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js "></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js "></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.4.1/swiper-bundle.min.js "></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js "></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js "></script>
+
+    <script src="./assets/js/style.js "></script>
+    <script src="./assets/js/slide.js "></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

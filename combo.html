@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip</title>
+    <link rel="shortcut icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" /> -->
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.4.1/swiper-bundle.css" />
+    <link rel="stylesheet" href="./assets/css/animation.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="canonical" href="https://wowjs.uk/">
+
+</head>
+
+<body id="">
+    <div class="wrapper">
+        <header class="header header-page">
+            <div class="container">
+                <div class="header-wrap">
+                    <a href="./index.html" class="logo">
+                        <img src="./assets/images/logo.png" alt="">
+                    </a>
+                    <div class="mobile-toggle">
+                        <span><i class="fa-regular fa-bars"></i></span>
+                    </div>
+                    <nav class="navbar">
+                        <span class="close-mobile-menu">
+                            <i class="fa-regular fa-xmark"></i>
+                        </span>
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a href="./index.html" class="menu-link">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./hotels.html" class="menu-link">
+                                    Khách sạn
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./tours.html" class="menu-link">
+                                    Tours
+                                </a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="./combo.html" class="menu-link">
+                                    Combo
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./blogs.html" class="menu-link">
+                                    Tin tức
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./gallery.html" class="menu-link">
+                                    Hình ảnh
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./contact.html" class="menu-link">
+                                    Liên hệ
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="combo  tb-space">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="sidebar">
+                                <div class="widget widget-filter">
+                                    <div class="title-filter p-2">
+                                        Lọc kết quả
+                                    </div>
+                                    <div class="filter-search px-3 py-4">
+                                        <div class="filter-search-inner ">
+                                            <div class="mb-3">
+                                                <label for="select-city" class="form-label city-label">Chọn Thành Phố</label>
+                                                <select name="" id="">
+                                                    <option value="">Tất cả</option>
+                                                    <option value="">Hồ Chí Minh</option>
+                                                    <option value="">Đà Nẵng</option>
+                                                    <option value="">Huế</option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-1">
+                                                <label for="select-type-hotel" class="form-label type-hotel-label">Loại hình chỗ ở</label>
+                                                <select name="" id="">
+                                                    <option value="">Tất cả</option>
+                                                    <option value="resort">Resort</option>
+                                                    <option value="hotels">Hotels</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="wrap-ranger-price mb-4 mt-4">
+                                            <div class="title-range-money mb-2">
+                                                Ngân sách của bạn
+                                            </div>
+                                            <div class="price-range-slider">
+                                                <div id="slider-range" class="range-bar"></div>
+                                                <p class="range-value">
+                                                    <input type="text" id="amount" readonly>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="wrap-stars">
+                                            <div class="title-level mb-2">Xếp hạng sao</div>
+                                            <div class="wrap-stars-checked">
+                                                <div class="wrap-stars-checked-item">
+                                                    <input type="checkbox" id="star5" name="star" value="5">
+                                                    <label for="star5">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </label>
+                                                </div>
+                                                <div class="wrap-stars-checked-item">
+                                                    <input type="checkbox" id="star4" name="star" value="4">
+                                                    <label for="star4">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </label>
+                                                </div>
+                                                <div class="wrap-stars-checked-item">
+                                                    <input type="checkbox" id="star3" name="star" value="3">
+                                                    <label for="star3">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </label>
+                                                </div>
+                                                <div class="wrap-stars-checked-item">
+                                                    <input type="checkbox" id="star2" name="star" value="2">
+                                                    <label for="star2">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </label>
+                                                </div>
+                                                <div class="wrap-stars-checked-item">
+                                                    <input type="checkbox" id="star1" name="star" value="1">
+                                                    <label for="star1">
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="combo-list">
+                                <div class="combo-item">
+                                    <div class="row mx-0">
+                                        <div class="col-md-4 p-0">
+                                            <div class="combo-image">
+                                                <a href="./combo-details.html">
+                                                    <img src="./assets/images/da-lat.jpg" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8 p-0">
+                                            <div class="combo-item-content p-3">
+                                                <h3 class="combo-name">
+                                                    <a href="./combo-details.html">
+                                                        Combo tour Hạ long 2N3Đ
+                                                    </a>
+                                                </h3>
+                                                <div class="timeclock mb-2">
+                                                    <i class="fa-solid fa-clock"></i> 2 ngày 3 đêm
+                                                </div>
+                                                <div class="combo-stars">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <div class="combo-price">
+                                                    <div class="title-unit-money mb-1">Giá mỗi đêm</div>
+                                                    <div class="unit-money-vnd ">
+                                                        <span class="unit-money-del">
+                                                            <del>2.000.000 đ</del>
+                                                        </span>
+                                                        <span class="unit-money-new">
+                                                            1.367.954 đ
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="group-btn flex-shrink-0  mt-sm-0 mt-2">
+                                                    <a href="" class="btn-add-to-cart d-flex align-items-center">
+                                                        <i class="fa-regular fa-cart-shopping"></i>
+                                                        <span class="px-1">Đặt ngay</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="combo-item">
+                                    <div class="row mx-0">
+                                        <div class="col-md-4 p-0">
+                                            <div class="combo-image">
+                                                <a href="./combo-details.html">
+                                                    <img src="./assets/images/da-lat.jpg" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8 p-0">
+                                            <div class="combo-item-content p-3">
+                                                <h3 class="combo-name">
+                                                    <a href="./combo-details.html">
+                                                        Combo tour Hạ long 2N3Đ
+                                                    </a>
+                                                </h3>
+                                                <div class="timeclock mb-2">
+                                                    <i class="fa-solid fa-clock"></i> 2 ngày 3 đêm
+                                                </div>
+                                                <div class="combo-stars">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <div class="combo-price">
+                                                    <div class="title-unit-money mb-1">Giá mỗi đêm</div>
+                                                    <div class="unit-money-vnd ">
+                                                        <span class="unit-money-del">
+                                                            <del>2.000.000 đ</del>
+                                                        </span>
+                                                        <span class="unit-money-new">
+                                                            1.367.954 đ
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="group-btn flex-shrink-0  mt-sm-0 mt-2">
+                                                    <a href="" class="btn-add-to-cart d-flex align-items-center">
+                                                        <i class="fa-regular fa-cart-shopping"></i>
+                                                        <span class="px-1">Đặt ngay</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="combo-item">
+                                    <div class="row mx-0">
+                                        <div class="col-md-4 p-0">
+                                            <div class="combo-image">
+                                                <a href="./combo-details.html">
+                                                    <img src="./assets/images/da-lat.jpg" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8 p-0">
+                                            <div class="combo-item-content p-3">
+                                                <h3 class="combo-name">
+                                                    <a href="./combo-details.html">
+                                                        Combo tour Hạ long 2N3Đ
+                                                    </a>
+                                                </h3>
+                                                <div class="timeclock mb-2">
+                                                    <i class="fa-solid fa-clock"></i> 2 ngày 3 đêm
+                                                </div>
+                                                <div class="combo-stars">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <div class="combo-price">
+                                                    <div class="title-unit-money mb-1">Giá mỗi đêm</div>
+                                                    <div class="unit-money-vnd ">
+                                                        <span class="unit-money-del">
+                                                            <del>2.000.000 đ</del>
+                                                        </span>
+                                                        <span class="unit-money-new">
+                                                            1.367.954 đ
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="group-btn flex-shrink-0  mt-sm-0 mt-2">
+                                                    <a href="" class="btn-add-to-cart d-flex align-items-center">
+                                                        <i class="fa-regular fa-cart-shopping"></i>
+                                                        <span class="px-1">Đặt ngay</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer ">
+            <div class="footer-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="company-info">
+                                <div class="logo-ft">
+                                    <img src="./assets/images/logo-ft.png" alt="">
+                                </div>
+                                <p>Địa chỉ: 147 mai dịch</p>
+                                <p>
+                                    Điện thoại : <a href="tel:+0384747553">0384747553</a>
+                                </p>
+                                <p>
+                                    Email :
+                                    <a href="mailto:Info@webhotel.vn">Info@webhotel.vn</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <h3 class="footer-title">
+                                        Cẩm nang
+                                    </h3>
+                                    <ul>
+                                        <li>
+                                            <a href="">Phú Quốc</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Đà Nẵng</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Đà Lạt</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Nha Trang</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <h3 class="footer-title">
+                                        Giới thiệu
+                                    </h3>
+                                    <ul>
+                                        <li>
+                                            <a href="">Về chúng tôi</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Quy định chung</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Dịch vụ</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Chính sách bảo mật</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-4">
+                                    <h3 class="footer-title">
+                                        Phương thức thanh toán
+                                    </h3>
+                                    <div class="payment-list">
+                                        <img src="./assets/images/visa.png" alt="" class="payment-icon">
+                                        <img src="./assets/images/master-card.png" alt="" class="payment-icon">
+                                        <img src="./assets/images/paypal.png" alt="" class="payment-icon">
+                                        <img src="./assets/images/apple-pay.png" alt="" class="payment-icon">
+                                        <img src="./assets/images/google-pay.png" alt="" class="payment-icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <a href="javascript:void(0);" id="backtotop"><i class="fa-sharp fa-solid fa-angle-up"></i></a>
+
+    <script src="./assets/js/jquery-3.6.0.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js "></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js "></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.4.1/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js "></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>
+
+    <script src="./assets/js/style.js "></script>
+    <script src="./assets/js/slide.js "></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

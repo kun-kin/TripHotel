@@ -1,0 +1,729 @@
+@font-face {
+    font-family: icons;
+    src: // url(../fonts/icons.eot?a978f6de474e62cbeeee2c144d45e930?#iefix) format("embedded-opentype"), 
+    url(../font/icons.woff2) format("woff2")
+}
+
+.icon {
+    line-height: 1;
+    display: inline-block
+}
+
+.icon::before {
+    font-family: icons!important;
+    font-style: normal;
+    font-weight: 400!important;
+    vertical-align: middle
+}
+
+.icon--Vector::before {
+    content: '\f101'
+}
+
+.icon--airport-transfer::before {
+    content: '\f102'
+}
+
+.icon--am-dun::before {
+    content: '\f103'
+}
+
+.icon--angle-right::before {
+    content: '\f104'
+}
+
+.icon--ao-choang-tam::before {
+    content: '\f105'
+}
+
+.icon--arrow-narrow-left::before {
+    content: '\f106'
+}
+
+.icon--arrow-right::before {
+    content: '\f107'
+}
+
+.icon--atm::before {
+    content: '\f108'
+}
+
+.icon--bai-bien-rieng::before {
+    content: '\f109'
+}
+
+.icon--ban-cong::before {
+    content: '\f10a'
+}
+
+.icon--ban-lam-viec::before {
+    content: '\f10b'
+}
+
+.icon--ban-ui-do::before {
+    content: '\f10c'
+}
+
+.icon--bank-transfer::before {
+    content: '\f10d'
+}
+
+.icon--bank::before {
+    content: '\f10e'
+}
+
+.icon--bar::before {
+    content: '\f10f'
+}
+
+.icon--bay-hoi-huong::before {
+    content: '\f110'
+}
+
+.icon--bep-va-dung-cu-bep::before {
+    content: '\f111'
+}
+
+.icon--bon-rua-mat-thap-hon::before {
+    content: '\f112'
+}
+
+.icon--bon-tam-hoi-kieu-tho-nhi-ky::before {
+    content: '\f113'
+}
+
+.icon--bon-tam::before {
+    content: '\f114'
+}
+
+.icon--business-center::before {
+    content: '\f115'
+}
+
+.icon--calendar-2::before {
+    content: '\f116'
+}
+
+.icon--calendar::before {
+    content: '\f117'
+}
+
+.icon--cart::before {
+    content: '\f118'
+}
+
+.icon--cash::before {
+    content: '\f119'
+}
+
+.icon--chau-a::before {
+    content: '\f11a'
+}
+
+.icon--chau-au::before {
+    content: '\f11b'
+}
+
+.icon--chau-my::before {
+    content: '\f11c'
+}
+
+.icon--chau-phi::before {
+    content: '\f11d'
+}
+
+.icon--chau-uc::before {
+    content: '\f11e'
+}
+
+.icon--chevron-down::before {
+    content: '\f11f'
+}
+
+.icon--chevron-left::before {
+    content: '\f120'
+}
+
+.icon--chevron-right::before {
+    content: '\f121'
+}
+
+.icon--chevron-up::before {
+    content: '\f122'
+}
+
+.icon--cho-do-xe::before {
+    content: '\f123'
+}
+
+.icon--cho-nghi-co-dam-bao-suc-khoe::before {
+    content: '\f124'
+}
+
+.icon--cho-phep-vat-nuoi::before {
+    content: '\f125'
+}
+
+.icon--clb-tre-em::before {
+    content: '\f126'
+}
+
+.icon--clock::before {
+    content: '\f127'
+}
+
+.icon--close-circle-filled::before {
+    content: '\f128'
+}
+
+.icon--close::before {
+    content: '\f129'
+}
+
+.icon--credit-card::before {
+    content: '\f12a'
+}
+
+.icon--da-lat::before {
+    content: '\f12b'
+}
+
+.icon--da-nang::before {
+    content: '\f12c'
+}
+
+.icon--day-khan-cap-trong-phong-tam::before {
+    content: '\f12d'
+}
+
+.icon--dep::before {
+    content: '\f12e'
+}
+
+.icon--dich-vu-bao-thuc::before {
+    content: '\f12f'
+}
+
+.icon--dich-vu-cho-thue-xe-dap-xe-may::before {
+    content: '\f130'
+}
+
+.icon--dich-vu-tau-cano::before {
+    content: '\f131'
+}
+
+.icon--dien-thoai::before {
+    content: '\f132'
+}
+
+.icon--dieu-hoa-khong-khi::before {
+    content: '\f133'
+}
+
+.icon--do-ve-sinh-ca-nhan::before {
+    content: '\f134'
+}
+
+.icon--doi-dien-bien::before {
+    content: '\f135'
+}
+
+.icon--down::before {
+    content: '\f136'
+}
+
+.icon--du::before {
+    content: '\f137'
+}
+
+.icon--equivalent::before {
+    content: '\f138'
+}
+
+.icon--facebook::before {
+    content: '\f139'
+}
+
+.icon--family-room::before {
+    content: '\f13a'
+}
+
+.icon--fire::before {
+    content: '\f13b'
+}
+
+.icon--flight::before {
+    content: '\f13c'
+}
+
+.icon--flightandhotel::before {
+    content: '\f13d'
+}
+
+.icon--fromto::before {
+    content: '\f13e'
+}
+
+.icon--gan-bien::before {
+    content: '\f13f'
+}
+
+.icon--gem::before {
+    content: '\f140'
+}
+
+.icon--ghe-sofa::before {
+    content: '\f141'
+}
+
+.icon--giap-bien::before {
+    content: '\f142'
+}
+
+.icon--gift::before {
+    content: '\f143'
+}
+
+.icon--good-price-tour::before {
+    content: '\f144'
+}
+
+.icon--gym::before {
+    content: '\f145'
+}
+
+.icon--ha-long::before {
+    content: '\f146'
+}
+
+.icon--ha-noi::before {
+    content: '\f147'
+}
+
+.icon--hamburger::before {
+    content: '\f148'
+}
+
+.icon--he-thong-cach-am::before {
+    content: '\f149'
+}
+
+.icon--heart-fill::before {
+    content: '\f14a'
+}
+
+.icon--heart-filled::before {
+    content: '\f14b'
+}
+
+.icon--heart::before {
+    content: '\f14c'
+}
+
+.icon--ho-boi-ngoai-troi::before {
+    content: '\f14d'
+}
+
+.icon--ho-boi-trong-nha::before {
+    content: '\f14e'
+}
+
+.icon--hotel-filled::before {
+    content: '\f14f'
+}
+
+.icon--hotel::before {
+    content: '\f150'
+}
+
+.icon--hue::before {
+    content: '\f151'
+}
+
+.icon--huong-dam-bang-am-thanh::before {
+    content: '\f152'
+}
+
+.icon--information::before {
+    content: '\f153'
+}
+
+.icon--instagram::before {
+    content: '\f154'
+}
+
+.icon--karaoke::before {
+    content: '\f155'
+}
+
+.icon--khan-tam::before {
+    content: '\f156'
+}
+
+.icon--khoang-cach-1km::before {
+    content: '\f157'
+}
+
+.icon--khoang-cach-3km::before {
+    content: '\f158'
+}
+
+.icon--khoang-cach-5km::before {
+    content: '\f159'
+}
+
+.icon--khu-vuc-bep::before {
+    content: '\f15a'
+}
+
+.icon--le-tan-24h::before {
+    content: '\f15b'
+}
+
+.icon--location-marker::before {
+    content: '\f15c'
+}
+
+.icon--loi-vao-cho-nguoi-di-xe-lan::before {
+    content: '\f15d'
+}
+
+.icon--long-arrow-left::before {
+    content: '\f15e'
+}
+
+.icon--mail::before {
+    content: '\f15f'
+}
+
+.icon--map::before {
+    content: '\f160'
+}
+
+.icon--may-pha-cafe::before {
+    content: '\f161'
+}
+
+.icon--may-quat::before {
+    content: '\f162'
+}
+
+.icon--may-suoi::before {
+    content: '\f163'
+}
+
+.icon--mini-bar::before {
+    content: '\f164'
+}
+
+.icon--minus-circle::before {
+    content: '\f165'
+}
+
+.icon--minus-square::before {
+    content: '\f166'
+}
+
+.icon--momo::before {
+    content: '\f167'
+}
+
+.icon--nha-hang::before {
+    content: '\f168'
+}
+
+.icon--nha-wc::before {
+    content: '\f169'
+}
+
+.icon--noti::before {
+    content: '\f16a'
+}
+
+.icon--package-tour::before {
+    content: '\f16b'
+}
+
+.icon--passenger::before {
+    content: '\f16c'
+}
+
+.icon--phone::before {
+    content: '\f16d'
+}
+
+.icon--phong-gia-dinh::before {
+    content: '\f16e'
+}
+
+.icon--phong-khong-hut-thuoc::before {
+    content: '\f16f'
+}
+
+.icon--phong-tam-khong-gian-mo::before {
+    content: '\f170'
+}
+
+.icon--phong-xong-hoi-kho::before {
+    content: '\f171'
+}
+
+.icon--phong-xong-hoi-uot::before {
+    content: '\f172'
+}
+
+.icon--phu-quoc::before {
+    content: '\f173'
+}
+
+.icon--plan-departure::before {
+    content: '\f174'
+}
+
+.icon--plane::before {
+    content: '\f175'
+}
+
+.icon--plus-circle::before {
+    content: '\f176'
+}
+
+.icon--plus-square::before {
+    content: '\f177'
+}
+
+.icon--plus::before {
+    content: '\f178'
+}
+
+.icon--pool::before {
+    content: '\f179'
+}
+
+.icon--premium-tour::before {
+    content: '\f17a'
+}
+
+.icon--private-beach::before {
+    content: '\f17b'
+}
+
+.icon--qr-code::before {
+    content: '\f17c'
+}
+
+.icon--quan-bar::before {
+    content: '\f17d'
+}
+
+.icon--rating-point::before {
+    content: '\f17e'
+}
+
+.icon--right-arrow::before {
+    content: '\f17f'
+}
+
+.icon--room::before {
+    content: '\f180'
+}
+
+.icon--sa-pa::before {
+    content: '\f181'
+}
+
+.icon--san-golf::before {
+    content: '\f182'
+}
+
+.icon--san-hien::before {
+    content: '\f183'
+}
+
+.icon--san-tennis::before {
+    content: '\f184'
+}
+
+.icon--save-price-tour::before {
+    content: '\f185'
+}
+
+.icon--search::before {
+    content: '\f186'
+}
+
+.icon--seat-class::before {
+    content: '\f187'
+}
+
+.icon--share::before {
+    content: '\f188'
+}
+
+.icon--shopping::before {
+    content: '\f189'
+}
+
+.icon--spa-massage::before {
+    content: '\f18a'
+}
+
+.icon--spa::before {
+    content: '\f18b'
+}
+
+.icon--sparkle::before {
+    content: '\f18c'
+}
+
+.icon--standard-tour::before {
+    content: '\f18d'
+}
+
+.icon--star-outline::before {
+    content: '\f18e'
+}
+
+.icon--star::before {
+    content: '\f18f'
+}
+
+.icon--tam-suoi-nuoc-nong::before {
+    content: '\f190'
+}
+
+.icon--thang-may::before {
+    content: '\f191'
+}
+
+.icon--thu-vien::before {
+    content: '\f192'
+}
+
+.icon--ticket::before {
+    content: '\f193'
+}
+
+.icon--toilet-danh-cho-nguoi-khuyet-tat::before {
+    content: '\f194'
+}
+
+.icon--toilet-san-cao-hon::before {
+    content: '\f195'
+}
+
+.icon--tour::before {
+    content: '\f196'
+}
+
+.icon--tram-sac-xe-dien::before {
+    content: '\f197'
+}
+
+.icon--truck::before {
+    content: '\f198'
+}
+
+.icon--truyen-hinh-cap::before {
+    content: '\f199'
+}
+
+.icon--tu-quan-ao::before {
+    content: '\f19a'
+}
+
+.icon--tv-man-hinh-phang::before {
+    content: '\f19b'
+}
+
+.icon--twitter::before {
+    content: '\f19c'
+}
+
+.icon--user::before {
+    content: '\f19d'
+}
+
+.icon--vehicle::before {
+    content: '\f19e'
+}
+
+.icon--vehicleandhotel::before {
+    content: '\f19f'
+}
+
+.icon--view-bien::before {
+    content: '\f1a0'
+}
+
+.icon--view-ho-boi::before {
+    content: '\f1a1'
+}
+
+.icon--view-nui-doi::before {
+    content: '\f1a2'
+}
+
+.icon--view-san-vuon::before {
+    content: '\f1a3'
+}
+
+.icon--view-thanh-pho::before {
+    content: '\f1a4'
+}
+
+.icon--voi-hoa-sen::before {
+    content: '\f1a5'
+}
+
+.icon--vu-truong-dj::before {
+    content: '\f1a6'
+}
+
+.icon--why-1::before {
+    content: '\f1a7'
+}
+
+.icon--why-2::before {
+    content: '\f1a8'
+}
+
+.icon--why-3::before {
+    content: '\f1a9'
+}
+
+.icon--why-4::before {
+    content: '\f1aa'
+}
+
+.icon--why-5::before {
+    content: '\f1ab'
+}
+
+.icon--why-6::before {
+    content: '\f1ac'
+}
+
+.icon--why-7::before {
+    content: '\f1ad'
+}
+
+.icon--wifi-free::before {
+    content: '\f1ae'
+}
+
+.icon--wifi::before {
+    content: '\f1af'
+}
+
+.icon--xe-dua-don-san-bay::before {
+    content: '\f1b0'
+}
+
+.icon--youtube::before {
+    content: '\f1b1'
+}
+
+.icon--zalo::before {
+    content: '\f1b2'
+}
